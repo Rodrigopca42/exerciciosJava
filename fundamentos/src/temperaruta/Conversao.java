@@ -11,6 +11,7 @@ public class Conversao {
 
 
         double conv = (Fahrenheit - z) * x / y;
+
         System.out.println("Temperatura em Celsius = °" + conv );
 
         double conv1 = y * Celsius / x + z;
