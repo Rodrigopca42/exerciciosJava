@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Conversao {
     
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws Exception{
 
         Scanner teclado = new Scanner(System.in);
 
@@ -20,8 +20,8 @@ public class Conversao {
         double conv = (Fahrenheit - z) * x / y;
 
         System.out.printf("Temperatura em Celsius = "+ conv +"°C%n");
-
         teclado.close();
+        
         double conv1 = y * Celsius / x + z;
         System.out.println("Temperatura em Fahrenheit = °" + conv1);
 
