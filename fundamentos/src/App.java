@@ -1,5 +1,5 @@
 
-public class primeiro_progama {
+public class App {
     public static void main(String[] args) throws Exception {
         double raio = 3.9;
         final double PI = 3.14159;
