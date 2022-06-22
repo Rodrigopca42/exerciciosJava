@@ -1,15 +1,8 @@
+import javax.swing.JOptionPane;
 
 public class App {
     public static void main(String[] args) throws Exception {
-        double raio = 3.9;
-        final double PI = 3.14159;
-
-        double area = PI * raio * raio;
-
-        System.out.println(area);
-
-        raio = 12.12;
-        area = PI * raio * raio;
-        System.out.println("Area = " + area + "m2");
+        
+        String valor1 = JOptionPane.showInputDialog(null, "Digite um número", "Rodrigo", JOptionPane.QUESTION_MESSAGE);
     }
 }
